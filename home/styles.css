@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -138,7 +137,6 @@ body {
 .btn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px #0ef, 0 0 50px #0ef;
-    cursor: pointer;
 }
 img {
     max-width: 100%;
@@ -148,7 +146,7 @@ img {
 
 .home-img img {
     max-width: 450px;
-    border-radius: 100px  ;
+    border-radius: 100px;
     box-shadow: 0 0 10px #0ef;
     
     animation: zoomIn 1s ease forwards, floatImage 4s infinite ease-in-out;
@@ -208,5 +206,3 @@ img {
         font-size: 1.2rem;
     }
 }
-
-

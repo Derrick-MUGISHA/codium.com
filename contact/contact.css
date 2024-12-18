@@ -51,6 +51,11 @@ body {
 .contact-info p strong {
     color: #0ef;
 }
+.contact-info p a {
+    color: #0ef;
+    text-shadow: 0 0 20px rgb(2, 170, 182);
+    
+}
 :nth-child(5) {
     /* color: #323946; */
     font-weight: 500;
