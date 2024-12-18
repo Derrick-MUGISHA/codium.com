@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #1f242d;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Header Styling */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Back Button Styling */
+.back-btn {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s;
+    animation: slideTop 1s ease forwards;
+}
+
+.back-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0ef;
+    transition: 0.3s;
+}
+
+.back-btn:hover::after {
+    width: 100%;
+}
+
+.back-btn:hover {
+    color: #0ef;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 3rem;
+    color: #0ef;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-category {
+    flex: 1;
+    max-width: 48%;
+    background: #323946;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.skill-category h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0ef;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill {
+    background: #1f242d;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0ef;
+}
+
+.skill h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.code-display {
+    font-size: 0.9rem;
+    background: #2c3340;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    /* user-select: none; Prevent copying */
+}
+
+/* Animations */
+@keyframes slideTop {
+    0% { transform: translateY(100px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        padding: 2rem 5%;
+        height: auto;
+        background-size: cover;
+        
+    }
+    .home-content h1 {
+        font-size: 2rem;
+    }
+    .home-content h3 {
+        font-size: 1.2rem;
+    }
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    .home-content h3 {
+        font-size: 1.5rem;
+    }
+    .header {
+        padding: 1rem 5%;
+        justify-content: center;
+    }
+    .header a {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home {
+        padding: 2rem 1%;
+        margin-top: 50px;
+    }
+    .home-content h1 {
+        font-size: 1rem;
+    }
+    .home-content h3 {
+        font-size: 0.8rem;
+    }
+    .header a {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+}
