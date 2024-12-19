@@ -73,6 +73,12 @@ body {
     animation: slideTop 1s ease forwards;
     animation-delay: calc(0.2s * var(--i));
 }
+.navbar i {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
 
 .navbar a::after {
     content: '';
