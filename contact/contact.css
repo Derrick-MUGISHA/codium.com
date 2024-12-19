@@ -1,3 +1,4 @@
+/* styles.css */
 /* General Reset */
 * {
     margin: 0;
@@ -48,20 +49,7 @@ body {
     background: #0ef;
     transition: 0.3s;
 }
-.contact-info p strong {
-    color: #0ef;
-}
-.contact-info p a {
-    color: #0ef;
-    text-shadow: 0 0 20px rgb(2, 170, 182);
-    
-}
-:nth-child(5) {
-    /* color: #323946; */
-    font-weight: 500;
-    margin-bottom: 20px;
-    font-family: itaricital;
-}
+
 .back-btn:hover::after {
     width: 100%;
 }
@@ -74,6 +62,10 @@ body {
 .contact-section {
     padding: 80px 10%;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-section h2 {
@@ -87,9 +79,14 @@ body {
     margin: 10px 0;
 }
 
-.contact-info a {
+.contact-info p strong {
+    color: #0ef;
+}
+
+.contact-info p a {
     color: #0ef;
     text-decoration: none;
+    text-shadow: 0 0 20px rgb(2, 170, 182);
 }
 
 .contact-info a:hover {
@@ -146,97 +143,67 @@ body {
 
 /* Animations */
 @keyframes slideTop {
-    0% { transform: translateY(100px); opacity: 0; }
-    100% { transform: translateY(0); opacity: 1; }
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .contact-section h2,
+    .tech-blog-section h2 {
+        font-size: 2.5rem;
+    }
+}
+
 @media (max-width: 768px) {
-    .contact-section, .tech-blog-section {
+    .header {
+        padding: 1rem 5%;
+    }
+
+    .back-btn {
+        font-size: 14px;
+        background-color: #1f242d;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact-section,
+    .tech-blog-section {
         padding: 40px 5%;
     }
 
-    .tech-blog-section h2, .contact-section h2 {
+    .contact-section h2,
+    .tech-blog-section h2 {
         font-size: 2rem;
     }
 
     .contact-info p {
         font-size: 1rem;
     }
-} 
-@media (max-width: 768px) {
-    .header a {
-        padding: 1rem 5%;
-        font-size: 14px;
-        position: fixed;
-        background-color: #1f242d;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    .header a:hover {
-        background-color: #0ef;
-        color: #1f242d;
-    }
-    .contact-section {
-        flex-direction: column;
-        padding: 2rem 5%;
-        height: auto;
-        background-size: cover;
-        
-    }
-    .home-content h1 {
-        font-size: 2rem;
-    }
-    .about-section h3 {
-        font-size: 1.2rem;
-    }
-    .about-section h1 {
-        font-size: 2.5rem;
-    }
-    .about-section h3 {
-        font-size: 1.5rem;
-    }
-    .about-section {
-        padding: 1rem 5%;
-        justify-content: center;
-    }
-    .about-section a {
-        font-size: 1rem;
-        margin-left: 10px;
-    }
 }
 
 @media (max-width: 576px) {
-    .header a {
-        padding: 1rem 5%;
-        font-size: 14px;
-        position: fixed;
-        background-color: #1f242d;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s, color 0.3s;
+    .header {
+        padding: 0.5rem 5%;
     }
 
-    .header a:hover {
-        background-color: #0ef;
-        color: #1f242d;
+    .contact-section h2,
+    .tech-blog-section h2 {
+        font-size: 1.8rem;
     }
-    .about-section {
-        padding: 2rem 1%;
-        margin-top: 50px;
+
+    .blog-item h3 {
+        font-size: 1.2rem;
     }
-    .about-section h1 {
-        font-size: 1rem;
-    }
-    .about-section h3 {
-        font-size: 0.8rem;
-    }
-    .about-section a {
-        font-size: 1rem;
-        margin-left: 10px;
+
+    .blog-item p {
+        font-size: 0.9rem;
     }
 }
