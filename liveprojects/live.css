@@ -1,4 +1,24 @@
 /* General Reset and Base Styles */
+
+:root {
+    --title-size: 2.5rem;
+    --subtitle-size: 1.8rem;
+    --text-size: 1.1rem;
+}
+
+.section-title {
+    font-size: var(--title-size);
+}
+
+.project-info h3 {
+    font-size: var(--subtitle-size);
+}
+
+.project-info p {
+    font-size: var(--text-size);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +38,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: transparent;
+    background: #1f242d;
     padding: 1rem 10%;
     display: flex;
     justify-content: space-between;
@@ -194,9 +214,17 @@ body {
     .section-title {
         font-size: 2.5rem;
     }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 35px;
+    }
 
     .navbar a {
-        margin-left: 15px;
+        margin-right: 10px;
+        /* padding-right: 10px; */
         font-size: 16px;
     }
 }
@@ -208,6 +236,14 @@ body {
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
     .navbar a {
