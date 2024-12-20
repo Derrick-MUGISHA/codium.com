@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
-            name: 'Shecancodeprojects',
-            description: 'School projects and code comp mostly free code comp.',
-            link: 'http://127.0.0.1:5500/liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
+            name: 'Frontend projects',
+            description: 'School projects and code comp mostly free code comp and w3schools.',
+            link: 'http://127.0.0.1:5501/liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
         },
         {
             name: 'E-commerce App',
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             projectCard.innerHTML = `
                 <h3>${project.name}</h3>
                 <p>${project.description}</p>
-                <a href="${project.link}" target="_blank" class="project-link">View Project</a>
+                <a href="${project.link}"class="project-link">View Project</a>
             `;
 
             projectsGrid.appendChild(projectCard);
