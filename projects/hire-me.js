@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             name: 'Frontend projects',
             description: 'School projects and code comp mostly free code comp and w3schools.',
-            link: 'http://127.0.0.1:5501/liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
+            link: '../liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
         },
         {
             name: 'E-commerce App',
