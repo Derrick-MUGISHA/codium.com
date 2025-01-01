@@ -187,8 +187,8 @@ body {
 
 .home-img img {
     max-width: 450px;
-    border-radius: 30px;
-    box-shadow: 0 0 20px var(--main-color);
+    border-radius: 50px;
+    box-shadow: 0 0 30px var(--main-color);
     animation: floatImage 4s ease-in-out infinite;
 }
 
