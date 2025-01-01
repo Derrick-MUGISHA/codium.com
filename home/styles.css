@@ -281,6 +281,18 @@ body {
     }
 }
 
+/* Dark Mode */
+.dark-mode {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+@media (min-width: 768px) { 
+  /* Styles for screens wider than 768px, which might be 
+     affected by 175% zoom on smaller devices */
+}
+
 @media (max-width: 480px) {
     html {
         font-size: 85%;
