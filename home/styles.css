@@ -103,6 +103,7 @@ body {
 
 /* Home Section */
 .home {
+    margin-top: 8rem;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -178,6 +179,7 @@ body {
 }
 
 .home-img {
+    /* margin-top: 8rem; */
     flex: 1;
     display: flex;
     justify-content: center;

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             name: 'Shecancodeprojects',
             description: 'School projects and code comp mostly free code comp.',
-            link: 'http://127.0.0.1:5500/liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
+            link: 'file:///C:/Users/hp/Documents/GitHub/codium.com/liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
         },
         {
             name: 'E-commerce App',
