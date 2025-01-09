@@ -104,6 +104,7 @@ body {
 
 /* Home Section */
 .home {
+    margin-top: 8rem;
     min-height: 100vh;
     display: flex;
     align-items: center;
