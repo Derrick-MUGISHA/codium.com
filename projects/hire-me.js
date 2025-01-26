@@ -6,17 +6,17 @@ document.addEventListener('DOMContentLoaded', function () {
             link: '../liveprojects/live.html', // Ensure this path is correct relative to hire-me.html
         },
         {
-            name: 'E-commerce App',
+            name: 'Backend projects',
             description: 'A fully responsive e-commerce web application with payment integration.',
             link: '#'
         },
         {
-            name: 'Blog Platform',
+            name: 'Personal projects',
             description: 'A blogging platform built with a custom CMS and user authentication.',
             link: '#'
         },
         {
-            name: 'Weather App',
+            name: 'open-source projects',
             description: 'A weather forecasting app fetching real-time data using APIs.',
             link: '#'
         }

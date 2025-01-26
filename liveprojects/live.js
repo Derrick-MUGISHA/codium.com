@@ -43,19 +43,45 @@ const projects = [
         codeLink: "#"
     },
     {
-        title: "Project Seven",
-        description: "Innovative web solution",
-        imageUrl: "path/to/project7-image.jpg",
-        liveLink: "#",
-        codeLink: "#"
+        title: "typing game",
+        description: "A typing tester",
+        imageUrl: "https://i.pinimg.com/736x/2a/50/33/2a503303de2de3fc4d499d5427d3c50e.jpg",
+        liveLink: "https://i.pinimg.com/736x/2a/50/33/2a503303de2de3fc4d499d5427d3c50e.jpg",
+        codeLink: "https://github.com/Derrick-MUGISHA/tp"
     },
     {
-        title: "Project Eight",
-        description: "Creative design project",
-        imageUrl: "path/to/project8-image.jpg",
-        liveLink: "#",
-        codeLink: "#"
-    }
+        title: "Text to speech",
+        description: "in build speech converter",
+        imageUrl: "https://i.pinimg.com/736x/39/cb/c7/39cbc7d4698e49bf5699f683b9efbb02.jpg",
+        liveLink: "https://speech-xgo8.onrender.com",
+        codeLink: "https://github.com/Derrick-MUGISHA/speech"
+    },
+    {
+        title: "youtube-clone",
+        description: "self build playtube",
+        imageUrl: "https://www.citypng.com/public/uploads/preview/hd-aesthetic-youtube-yt-black-red-outline-logo-symbol-sign-icon-png-7017516951203758jnlahzimi.png",
+        liveLink: "https://youtube-erv2.onrender.com",
+        codeLink: "https://github.com/Derrick-MUGISHA/youtube",
+    },
+    {   
+        title: "Qur codes generator",
+        description: "Qur codes generator with any words",
+        imageUrl: "https://i.pinimg.com/736x/0e/97/27/0e972709749e682fb5bf8d85dcb2e35d.jpg",
+        liveLink: "https://qr-bix4.onrender.com",
+        codeLink: "https://github.com/Derrick-MUGISHA/QR"
+    },
+    {  title: "Weather-system",
+        description: "fetches weather data",
+        imageUrl: "https://www.citypng.com/public/uploads/preview/hd-aesthetic-youtube-yt-black-red-outline-logo-symbol-sign-icon-png-7017516951203758jnlahzimi.png",
+        liveLink: "https://tracker-api-r48e.onrender.com",
+        codeLink: "https://github.com/Derrick-MUGISHA/tracker-api"
+    },
+    // {   title: "Project Twelve",
+    //     description: "Project Twelve",
+    //     imageUrl: "https://www.citypng.com/public/uploads/preview/hd-aesthetic-youtube-yt-black-red-outline-logo-symbol-sign-icon-png-7017516951203758jnlahzimi.png",
+    //     liveLink: "https://github.com/Derrick-MUGISHA/youtube",
+    //     codeLink: "https://youtube-erv2.onrender.com"
+    // },
 ];
 
 // Function to create project cards
